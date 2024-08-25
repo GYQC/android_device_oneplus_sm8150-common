@@ -49,4 +49,13 @@
 
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+     <integer name="config_currentInfoDivider" translatable="false">1</integer>
+     
+     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/fastchg_status</string>
+     
+      <!-- Whether device has dash charging support -->
+    <bool name="config_hasDashCharger">false</bool>
+
 </resources>
